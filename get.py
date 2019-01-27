@@ -12,7 +12,7 @@ from pprint import pprint
 def button_click():
     pygame.mixer.music.stop()
     window.destroy()
-twitter = OAuth1Session("rtBqvvWEXYdMBTFl9ySsNBFFC", "FFb1t7XvY3jgJPnEaP8swErIhD9fNTVzkB7Ip64nCgKuFMyoA2", "717955109871706113-4OUizAlW6sVwm5QcNmT18D1E5tRvLRj", "yeMj6B4olwtKUhlga4myFTUeOZflxTZPfJdrVGgYEhbog")
+twitter = OAuth1Session("API KEY", "API SECRET", "ACCESS TOKEN", "ACCESS SECRET")
 
 
 app = Flask(__name__)
